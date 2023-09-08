@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go-exercises/05/g"
 )
 
 /*
@@ -14,7 +15,7 @@ Also create a `main.go` file that acts as calling class.
 */
 
 func main() {
-	ReadString()
-	out := PrintString()
+	g.ReadString()
+	out := g.PrintString()
 	fmt.Println(out)
 }
